@@ -1,756 +1,746 @@
-# Sourced from http://dev.maxmind.com/geoip/legacy/codes/country_continent/
 
 class IsoCountryCodes
   class Code
     class AND < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class ARE < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class AFG < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class ATG < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class AIA < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class ALB < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class ARM < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class AGO < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class ATA < Code #:nodoc:
-      self.continent = 'AN'
+      self.names = {}
     end
     class ARG < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class ASM < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class AUT < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class AUS < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {'österreich' => 'DEU', 'oesterreich' => 'DEU'}
     end
     class ABW < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class ALA < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class AZE < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class BIH < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class BRB < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class BGD < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class BEL < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
+    end
+    class BES < Code #:nodoc:
+      self.names = {}
     end
     class BFA < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class BGR < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class BHR < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class BDI < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class BEN < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class BLM < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class BMU < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class BRN < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class BOL < Code #:nodoc:
-      self.continent = 'SA'
-    end
-    class BES < Code #:ndoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class BRA < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class BHS < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class BTN < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class BVT < Code #:nodoc:
-      self.continent = 'AN'
+      self.names = {}
     end
     class BWA < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class BLR < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class BLZ < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class CAN < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class CCK < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class COD < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class CAF < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class COG < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class CHE < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class CIV < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class COK < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class CHL < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class CMR < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class CHN < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class COL < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class CRI < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class CUB < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class CUW < Code #:nodoc:
-      self.continent = 'SA'
-    end
-    class BOL < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {'curacao' => 'ESP'}
     end
     class CPV < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class CXR < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class CYP < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class CZE < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class DEU < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {'deutschland' => 'DEU', 'schland' => 'DEU'}
     end
     class DJI < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class DNK < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class DMA < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class DOM < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class DZA < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class ECU < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class EST < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class EGY < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class ESH < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class ERI < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class ESP < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class ETH < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class FIN < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class FJI < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class FLK < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class FSM < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class FRO < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class FRA < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class GAB < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class GBR < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class GRD < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class GEO < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class GUF < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class GGY < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class GHA < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class GIB < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class GRL < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class GMB < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class GIN < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class GLP < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class GNQ < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class GRC < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class SGS < Code #:nodoc:
-      self.continent = 'AN'
+      self.names = {}
     end
     class GTM < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class GUM < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class GNB < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class GUY < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class HKG < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class HMD < Code #:nodoc:
-      self.continent = 'AN'
+      self.names = {}
     end
     class HND < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class HRV < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class HTI < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class HUN < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {'ungarn' => 'DEU'}
     end
     class IDN < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class IRL < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class ISR < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class IMN < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class IND < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class IOT < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class IRQ < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class IRN < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class ISL < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class ITA < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class JEY < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class JAM < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class JOR < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class JPN < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class KEN < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class KGZ < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class KHM < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class KIR < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class COM < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class KNA < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class PRK < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class KOR < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class KWT < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class CYM < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class KAZ < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class LAO < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class LBN < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class LCA < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class LIE < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class LKA < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class LBR < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class LSO < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class LTU < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class LUX < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class LVA < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class LBY < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class MAR < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class MCO < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class MDA < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class MNE < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class MAF < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class MDG < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class MHL < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class MKD < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class MLI < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class MMR < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class MNG < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class MAC < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class MNP < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class MTQ < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class MRT < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class MSR < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class MLT < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class MUS < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class MDV < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class MWI < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class MEX < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class MYS < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class MOZ < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class NAM < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class NCL < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class NER < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class NFK < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class NGA < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class NIC < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class NLD < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {'niederlande' => 'DEU', 'holland' => 'DEU'}
     end
     class NOR < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class NPL < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class NRU < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class NIU < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class NZL < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class OMN < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class PAN < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class PER < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class PYF < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class PNG < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class PHL < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class PAK < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class POL < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class SPM < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class PCN < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class PRI < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class PSE < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class PRT < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class PLW < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class PRY < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class QAT < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class REU < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class ROU < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class SRB < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class RUS < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class RWA < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class SAU < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class SLB < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class SYC < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class SDN < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class SWE < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class SGP < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class SHN < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class SVN < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class SJM < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class SVK < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class SLE < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class SMR < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class SEN < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class SOM < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class SUR < Code #:nodoc:
-      self.continent = 'SA'
-    end
-    class SSD < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class STP < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class SLV < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class SYR < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class SWZ < Code #:nodoc:
-      self.continent = 'AF'
-    end
-    class SXM < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class TCA < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class TCD < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class ATF < Code #:nodoc:
-      self.continent = 'AN'
+      self.names = {}
     end
     class TGO < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class THA < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class TJK < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class TKL < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class TLS < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class TKM < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class TUN < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class TON < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class TUR < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class TTO < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class TUV < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class TWN < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class TZA < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class UKR < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class UGA < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class UMI < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class USA < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class URY < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class UZB < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class VAT < Code #:nodoc:
-      self.continent = 'EU'
+      self.names = {}
     end
     class VCT < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class VEN < Code #:nodoc:
-      self.continent = 'SA'
+      self.names = {}
     end
     class VGB < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class VIR < Code #:nodoc:
-      self.continent = 'NA'
+      self.names = {}
     end
     class VNM < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class VUT < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class WLF < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class WSM < Code #:nodoc:
-      self.continent = 'OC'
+      self.names = {}
     end
     class YEM < Code #:nodoc:
-      self.continent = 'AS'
+      self.names = {}
     end
     class MYT < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class ZAF < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class ZMB < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
     class ZWE < Code #:nodoc:
-      self.continent = 'AF'
+      self.names = {}
     end
   end
 end
