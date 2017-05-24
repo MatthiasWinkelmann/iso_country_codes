@@ -1,6 +1,5 @@
 require 'nokogiri'
 require 'open-uri'
-require 'erubis'
 
 class IsoCountryCodes
   module Task
@@ -40,14 +39,9 @@ class IsoCountryCodes
           end
         end
 
-        to_ruby(codes) if codes
-      end
 
-      def self.to_ruby(codes)
-        tmpl  = File.read(File.join(File.dirname(__FILE__), 'iso_3166_1.rb.erb'))
-        eruby = Erubis::Eruby.new(tmpl)
-        eruby.result(:codes => codes)
-      end
+
+  
     end # UpdateCodes
   end # Task
 end # IsoCountryCodes
